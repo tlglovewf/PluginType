@@ -1,0 +1,11 @@
+Debug
+Release
+*.VC.*
+.vs
+*.pdb
+*.ilk
+*.o
+*.exe
+*.obj
+*.idb
+*.log
