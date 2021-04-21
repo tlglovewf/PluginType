@@ -1,5 +1,14 @@
+/****************************************************************************
+*Copyright (c) 2021  All Rights Reserved.
+*公司名称：
+*命名空间：	navinfo
+*文件名  ：	NiRegister.h
+*作用    ： 注册类
+*创建人  ： 涂理根
+*创建时间：	2021/4/16 13:20:49
+*****************************************************************************/
 #pragma once
-#include <map>
+#include <unordered_map>
 #include <string>
 #include <memory>
 #include "NiInterface.h"
@@ -48,13 +57,11 @@ namespace navinfo
 		}
 
 	protected:
-		using ItemContainer = std::map<std::string, std::shared_ptr< T > >;
+		using ItemContainer = std::unordered_map<std::string, std::shared_ptr< T > >;
 
 		ItemContainer							mItems;
 
 	};
-
-
 
 
 	/*
@@ -88,7 +95,7 @@ namespace navinfo
 	template<typename T>
 	class DataPreProcPlugin : public PluginInstance<T, IDataPreProcesser> {
 	public:
-		DataPreProcPlugin<T>(const std::string &name) : PluginInstance<T, IDataChecker>(name)
+		DataPreProcPlugin<T>(const std::string &name) : PluginInstance<T, IDataPreProcesser>(name)
 		{
 
 		}
