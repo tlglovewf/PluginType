@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1525
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataCheckerTest", "DataCheckerTest\DataCheckerTest.vcxproj", "{13E4E758-1530-4BFB-9D5D-62BBF07136A8}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtMainWindow", "QtMainWindow\QtMainWindow.vcxproj", "{4E166740-5649-461C-B55F-EB3869E5AAB3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{13E4E758-1530-4BFB-9D5D-62BBF07136A8}.Debug|x64.Build.0 = Debug|x64
 		{13E4E758-1530-4BFB-9D5D-62BBF07136A8}.Release|x64.ActiveCfg = Release|x64
 		{13E4E758-1530-4BFB-9D5D-62BBF07136A8}.Release|x64.Build.0 = Release|x64
+		{4E166740-5649-461C-B55F-EB3869E5AAB3}.Debug|x64.ActiveCfg = Debug|x64
+		{4E166740-5649-461C-B55F-EB3869E5AAB3}.Debug|x64.Build.0 = Debug|x64
+		{4E166740-5649-461C-B55F-EB3869E5AAB3}.Release|x64.ActiveCfg = Release|x64
+		{4E166740-5649-461C-B55F-EB3869E5AAB3}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54ED16F7-6CDF-4D48-9173-D4CE677AFE19}
 	EndGlobalSection
 EndGlobal

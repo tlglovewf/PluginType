@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Trans/keys.json</file>
+        <file>Trans/language_zh.json</file>
+    </qresource>
+</RCC>
