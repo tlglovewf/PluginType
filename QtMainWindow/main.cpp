@@ -53,8 +53,8 @@ int main(int argc, char *argv[])
 	
 #if 0
     QQuickView viewer;
-    viewer.engine()->addImportPath("./TaoQuick/imports/");
-    viewer.rootContext()->setContextProperty("taoQuickImagePath", "./TaoQuick/imports/TaoQuick/Images");
+    viewer.engine()->addImportPath("./Ui/TaoQuick/imports/");
+    viewer.rootContext()->setContextProperty("taoQuickImagePath", "./Ui/TaoQuick/imports/TaoQuick/Images");
     viewer.setSource(QUrl("main.qml"));
 
     viewer.show();

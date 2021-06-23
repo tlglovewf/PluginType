@@ -1,0 +1,11 @@
+﻿  moc Trans.h
+  moc QuickTool.h
+  moc FrameLessView.h
+  FrameLessView_win.cpp
+  QuickTool.cpp
+  Trans.cpp
+  moc_Trans.cpp
+  moc_QuickTool.cpp
+  moc_FrameLessView.cpp
+    正在创建库 C:\Test\cpptest\DataCheckerTest\x64\Release\FrameLess.lib 和对象 C:\Test\cpptest\DataCheckerTest\x64\Release\FrameLess.exp
+  FrameLess.vcxproj -> C:\Test\cpptest\DataCheckerTest\x64\Release\FrameLess.dll

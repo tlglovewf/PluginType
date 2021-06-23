@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DataCheckerTest", "DataChec
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtMainWindow", "QtMainWindow\QtMainWindow.vcxproj", "{4E166740-5649-461C-B55F-EB3869E5AAB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FrameLess", "FrameLess\FrameLess.vcxproj", "{339BECD6-F638-4AC2-8848-2D2A4B287E36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,10 @@ Global
 		{4E166740-5649-461C-B55F-EB3869E5AAB3}.Debug|x64.Build.0 = Debug|x64
 		{4E166740-5649-461C-B55F-EB3869E5AAB3}.Release|x64.ActiveCfg = Release|x64
 		{4E166740-5649-461C-B55F-EB3869E5AAB3}.Release|x64.Build.0 = Release|x64
+		{339BECD6-F638-4AC2-8848-2D2A4B287E36}.Debug|x64.ActiveCfg = Debug|x64
+		{339BECD6-F638-4AC2-8848-2D2A4B287E36}.Debug|x64.Build.0 = Debug|x64
+		{339BECD6-F638-4AC2-8848-2D2A4B287E36}.Release|x64.ActiveCfg = Release|x64
+		{339BECD6-F638-4AC2-8848-2D2A4B287E36}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
